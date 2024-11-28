@@ -60,6 +60,7 @@ High photorealism with diverse attributes (age, gender, ethnicity).
 Customizable styles based on diffusion model parameters.
 
 Sample generated images:
+
 ![image047_I](https://github.com/user-attachments/assets/127092c3-3a31-400d-b47e-e760d862eec7)
 
 ## 🛠️ Customization
