@@ -7,6 +7,7 @@ Pretrained model fine-tuned for face-specific tasks.
 Customizable parameters to control image diversity and quality.
 Support for generating images of specified resolutions.
 Efficient performance on GPU-enabled setups for real-time generation.
+
 🔧 Installation
 Clone the repository:
 
@@ -27,6 +28,8 @@ Set up your environment:
 
 Ensure CUDA is enabled for GPU acceleration.
 Verify your Python version is 3.8 or higher.
+
+
 🚀 Usage
 Generate Face Images
 Run the main script to generate images:
@@ -43,12 +46,16 @@ Example
 bash
 Copy code
 python generate_faces.py --num_images 10 --num_steps 100 --guidance_scale 8.5 --seed 42
+
+
 📂 Project Structure
 models/: Contains pretrained model weights.
 scripts/: Utility scripts for preprocessing, training, and evaluation.
 outputs/: Generated images are saved here.
 notebooks/: Jupyter notebooks for exploratory data analysis and visualization.
 requirements.txt: List of Python dependencies.
+
+
 📊 Results
 Generated faces exhibit:
 
@@ -60,6 +67,8 @@ Sample generated images:
 🛠️ Customization
 Modify the training script in train.py to fine-tune the model on custom datasets.
 Use the config.yaml file to change hyperparameters such as learning rate, batch size, and number of epochs.
+
+
 🤝 Contributing
 Contributions are welcome! To contribute:
 
